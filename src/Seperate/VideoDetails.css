@@ -1,0 +1,101 @@
+
+.mainvideo{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.innerthumbnaildiv{
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.videol{
+    position: relative;
+    top: -25px;
+    left: 140px;
+    background-color: black;
+    color: white;
+    width: 55px;
+    border-radius: 5px;
+}
+.innerall{
+    display: flex;
+    
+    gap: 8px;
+    margin-top: 10px;
+   
+}
+.imgtime{
+   
+    width: 200px;
+    height: 120px;
+}
+.sideinfo{
+  
+    padding-top: 10px;
+   
+    text-align: start;
+}
+.innervideodata{
+    overflow: hidden;
+    width: 355px;
+    text-decoration: none ;
+    text-align: start;
+    margin-left:-5px ;
+    margin-top: 4px;
+}
+.innervideodata span{
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size:1rem;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.singlevideodata{
+    width: 850px;
+    
+}
+.singlevideodata span{
+    font-size: 20px;
+   
+   
+}
+.subs{
+   
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+   margin-top: 5px;
+}
+.subs p{
+   font-size: 15px;
+   padding-left: 5px;
+   margin-top: 2px;
+}
+.viewsd{
+    display: flex;
+    margin-top: 10px;
+}
+.like{
+    font-size: 30px;
+}
+.likes{
+    margin-left: 400px;
+    background-color:#cccaca;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.viewss{
+    color: #606060;
+    font-size: 13px;
+}

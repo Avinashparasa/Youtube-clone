@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@400;500&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.leftnav{
+    font-size: 20px;
+   margin-top: 2px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.clicked{
+    background-color: #cccaca;
+}
+
+.leftnav:hover{
+    cursor: pointer;
+}
+span{
+    margin-left: 15px;
+}
+hr{
+    width: 12rem;
+    height: 0rem;
+    
+   margin-left: 0;
+}
+.leftflex{
+    margin-top: 20px;
+    margin-left: 10px;
+    position: fixed;
+}
